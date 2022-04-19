@@ -1,0 +1,46 @@
+.CloseIcon {
+    color: white;
+}
+
+.Icon {
+    position: absolute;
+    top: 1.2rem;
+    right: 1.5rem;
+    background: transparent;
+    font-size: 2rem;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.SideBarWrapper {
+    color: white;
+}
+.UlSideBar {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 80px);
+    text-align: center;
+}
+@media screen and (max-width: 480px) {
+    .UlSideBar{
+        grid-template-rows: repeat(6, 60px);
+    }
+}
+.LinkS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    list-style: none;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.LinkS:hover {
+    Color: #b3dcec;
+    transition: 0.2s ease-in-out;
+}
